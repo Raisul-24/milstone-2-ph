@@ -1,0 +1,217 @@
+@media screen and (max-width:576px) {
+        body {
+                padding: 0px;
+        }
+
+        header {
+                margin-bottom: 100px;
+                width: 400px;
+        }
+
+        .nav {
+                min-height: 130px;
+        }
+
+        .nav,
+        .nav-items ul,
+        .banner,
+        .banner-container,
+        .banner-img-container,
+        .gamer,
+        .play,
+        .career,
+        .career-container {
+                flex-direction: column;
+                margin-bottom: 20px;
+                width: 400px;
+                margin: 0%;
+        }
+
+        .banner,
+        .banner-img-container,
+        .banner-container,
+        .banner-img-container,
+        .gamer,
+        .funny-video-container,
+        .play-container,
+        .play-img-container>img,
+        .career-container,
+        .career-img,
+        .btn-container-item,
+        .btn-container {
+                margin: 0%;
+                padding: 0%;
+        }
+
+        .banner-img-container>img,
+        .gamer-img>img,
+        .funny-videos,
+        .btn-container,
+        .career-img>img,
+        footer {
+                width: 400px;
+        }
+
+        .funny-video-container {
+                grid-template-columns: repeat(1, 1fr);
+        }
+
+        .play-img-container>img {
+                width: 350px;
+                margin-left: 70px;
+        }
+
+        .img-relative>img {
+                width: 200px;
+                bottom: 100px;
+        }
+
+        .btn-container-item {
+                grid-template-columns: repeat(3, 1fr);
+        }
+
+        .btn {
+                border-radius: 10px;
+                height: 20px;
+                font-size: 0.5rem;
+        }
+
+        .btn>img {
+                margin-right: 0px;
+
+
+        }
+
+        .nav-items>ul>li>a,
+        .career-items {
+                font-size: .5rem;
+        }
+
+        footer>.logo-container {
+                padding: 0% 15%;
+        }
+
+        .gamer-container>h3,
+        .gamer-condition>h2,
+        footer {
+                font-size: 0.4rem;
+                margin-right: 0px;
+        }
+
+        .social-link>a>.fa-brands {
+                font-size: 20px;
+        }
+}
+
+
+/* tablet */
+@media screen and (min-width: 576px) and (max-width:960px) {
+        body {
+                padding: 10px;
+        }
+
+        header,
+        .video-title,
+        .career-container {
+                margin-bottom: 100px;
+                padding: 0%;
+                font-size: 1 rem;
+        }
+
+        .nav,
+        .banner,
+        .banner-container,
+        .banner-container,
+        .banner-img-container,
+        .gamer,
+        .gamer-img,
+        .gamer-container-one,
+        .funny-video-container,
+        .video-title,
+        .play,
+        .play-container,
+        .career,
+        .career-container,
+        .btn-container-item,
+        footer>.logo-container {
+                margin: 0%;
+                padding: 0%;
+
+        }
+
+        .logo-container {
+                width: 20%;
+        }
+
+        .nav-items>ul>li {
+                margin-right: 2px;
+        }
+
+        .nav-items {
+                width: 40%;
+
+        }
+
+        .nav-items>ul>li>a,
+        .career-items {
+                font-size: .5rem;
+        }
+
+        .banner,
+        .gamer,
+        .play,
+        .career {
+                flex-direction: column;
+        }
+
+        .banner-container {
+                margin: 0px 100px;
+        }
+
+        .gamer-img img,
+        .gamer-container-one,
+        .funny-videos,
+        .career-img>img,
+        .career,
+        footer,
+        .play-container {
+                max-width: 600px;
+        }
+
+        .gamer-container-one,
+        .play-container {
+                text-align: center;
+        }
+
+        .funny-video-container {
+                grid-template-columns: repeat(2, 1fr);
+        }
+
+        .play-img-container>img {
+                width: 450px;
+        }
+
+        .career-container {
+                width: 100%;
+                padding: 0% 10%;
+        }
+
+        .btn-container-item {
+                grid-template-columns: repeat(3, 1fr);
+        }
+
+        footer>.logo-container {
+                padding: 0% 25%;
+        }
+
+        .gamer-container>h3,
+        .gamer-condition>h2,
+        footer {
+                font-size: 0.6rem;
+                margin-right: 0px;
+        }
+
+        .social-link>a>.fa-brands {
+                font-size: 30px;
+        }
+}

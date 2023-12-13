@@ -1,0 +1,65 @@
+/* responsive */
+@media screen and (max-width:576px) {
+
+        nav,
+        .feature,
+        .love-features {
+                flex-direction: column;
+        }
+
+        header,
+        .feature {
+                padding: 20px;
+        }
+
+        .banner-title {
+                font-size: 2rem;
+        }
+
+        .feature-img {
+                grid-template-columns: repeat(1, 1fr);
+        }
+
+        .feature-container,
+        footer,
+        .love-features,
+        .love-img {
+                margin: 0px;
+        }
+
+        .love-img {
+                width: 480px;
+                padding: 5px;
+        }
+
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+
+        nav,
+        .feature,
+        .love-features {
+                flex-direction: column;
+        }
+
+        header,
+        .love-container {
+                padding: 20px;
+        }
+
+        .feature {
+                padding: 0px;
+        }
+
+        .feature-img {
+                grid-template-columns: repeat(2, 1fr);
+        }
+
+        .feature-container,
+        footer,
+        .love-features {
+                margin: 0px;
+        }
+}

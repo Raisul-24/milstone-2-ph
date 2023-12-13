@@ -1,0 +1,274 @@
+/* shared */
+* {
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+}
+
+#title-font {
+        color: #131313;
+}
+
+#p-font {
+        color: #727272;
+
+}
+
+.btn-primary {
+        border-radius: 8px;
+        background: #FF900E;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 24px;
+        border: 0;
+        cursor: pointer;
+}
+
+/* nav bar */
+header {
+
+        background: rgba(255, 144, 14, 0.10);
+        padding: 50px 150px;
+        height: auto;
+        width: auto;
+}
+
+nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+
+.nav-title {
+        font-size: 2.81rem;
+        font-weight: 700;
+        text-align: center;
+}
+
+nav>ul {
+        display: flex;
+}
+
+nav>ul>li {
+        list-style-type: none;
+        margin-right: 20px;
+}
+
+nav>ul>li>a {
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: #424242;
+}
+
+
+/* banner */
+.banner-content {
+        margin-bottom: 50px;
+}
+
+.banner-title {
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: center;
+}
+
+.title-description {
+        text-align: center;
+        margin-bottom: 32px;
+        font-size: 1rem;
+}
+
+.banner>img {
+        width: 100%;
+}
+
+/* features */
+.feature {
+        display: flex;
+        justify-content: space-between;
+        padding: 85px 150px 169px;
+}
+
+.feature-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 10px;
+}
+
+.feature-items {
+        height: 300px;
+        width: 280px;
+}
+
+.feature-container {
+        margin-top: 130px;
+        margin-left: 40px;
+}
+
+.feature-title {
+        font-size: 2.81rem;
+        font-weight: 700;
+        color: #FF900E;
+
+}
+
+.feature-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+}
+
+
+/* love & enjoy */
+.love-features {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 80px;
+        margin-right: 40px;
+}
+
+.love-container {
+        max-width: 500px;
+        margin-bottom: 30px;
+}
+
+.feature-item {
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        margin-bottom: 20px;
+        padding: 5px 20px;
+}
+
+.feature-item-title {
+        font-size: 1.25rem;
+}
+
+
+.love-title {
+        font-size: 2.8rem;
+        border-left: 10px solid rgb(246, 107, 8);
+        padding-left: 20px;
+
+}
+
+.love-description,
+.feature-item-details {
+        font-size: 1rem;
+}
+
+.love-img {
+        max-width: 600px;
+        max-height: 980px;
+        margin-left: 50px;
+}
+
+.ten-year-badge {
+        border-radius: 8px;
+        background: #FF900E;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+        color: #FFF;
+        max-width: 340px;
+        padding: 20px 15px;
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+}
+
+.ten-year-badge h2 {
+        font-size: 4rem;
+        margin: 0;
+}
+
+.ten-year-badge p {
+        font-size: 1rem;
+}
+
+/* Fact Section */
+.fact {
+        margin: 0px 150px;
+}
+
+.fact-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0%;
+}
+
+.fact-description {
+        font-size: 1rem;
+        margin-bottom: 100px;
+}
+
+.fact-container {
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 120px;
+}
+
+.fact-item {
+        text-align: center;
+        padding: 40px;
+}
+
+.fact-img {
+        max-width: 45px;
+        max-width: 45px;
+        margin-bottom: 10px;
+}
+
+.price {
+        font-size: 2.8rem;
+        font-weight: 600;
+        margin: 0;
+}
+
+.fact-name {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin: 0;
+}
+
+
+/* sponsor */
+.sponsor {
+        margin: 50px 150px 100px;
+}
+
+#sponsor-title {
+        margin: 0;
+}
+
+.sponsor-details {
+        color: #727272;
+}
+
+.icon-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 100px;
+}
+
+.icon {
+        max-width: 120px;
+        max-height: 50px;
+}
+
+/* footer */
+footer {
+        margin: 80px 150px 80px;
+        padding: 30px;
+        border-radius: 8px;
+        background: #FFF4E7;
+        text-align: center;
+        font-size: 1.25rem;
+}

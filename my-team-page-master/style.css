@@ -1,0 +1,40 @@
+body{
+        font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background: #FAFAFA;
+
+line-height: normal;
+line-height: normal;
+font-style: normal;
+}
+header{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        margin: 110px 265px 96px 243px;
+}
+.title-1{
+        color: #000;
+font-weight: 700;
+line-height: normal;
+}
+.head-title{
+        color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.heed-description{
+        color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+}
+@media screen and (max-width:576px) {
+        .header{
+                grid-template-rows: repeat(1,1fr);
+        }
+        
+}
